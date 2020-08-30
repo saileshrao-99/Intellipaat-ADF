@@ -1,0 +1,21 @@
+{
+	"name": "DS_Blob_Target",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Blob_storageaccount09",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "target"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
